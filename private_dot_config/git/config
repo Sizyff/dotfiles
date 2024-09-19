@@ -1,0 +1,29 @@
+[commit]
+	gpgsign = true
+[core]
+	pager = delta
+[delta]
+	navigate = true
+[diff]
+	colorMoved = default
+[fetch]
+	prune = true
+[gpg]
+	format = ssh
+[init]
+	defaultBranch = main
+[interactive]
+	diffFilter = delta --color-only
+[merge]
+	conflictstyle = diff3
+[pull]
+	rebase = true
+[push]
+	autoSetupRemote = true
+[rebase]
+	autosquash = true
+	autoStash = true
+[user]
+	name = Léo DEVILLE
+	email = 182140235+Sizyff@users.noreply.github.com
+	signingkey = /home/sizyff/.ssh/GitHub.pub
