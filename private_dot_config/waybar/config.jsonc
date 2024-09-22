@@ -1,0 +1,42 @@
+{
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": ["clock"],
+  "modules-right": ["idle_inhibitor", "backlight", "pulseaudio", "battery", "tray"],
+  "hyprland/workspaces": {
+    "format": "{name} {icon}",
+    "format-icons": {
+      "default": "",
+      "active": ""
+    }
+  },
+  "clock": {
+    "format": "  {:%H:%M}",
+    "tooltip": false
+  },
+  "idle_inhibitor": {
+    "format": "{icon}",
+    "format-icons": {
+      "activated": "",
+      "deactivated": ""
+    },
+    "tooltip": false
+  },
+  "backlight": {
+    "device": "intel_backlight",
+    "format": " {percent} %",
+    "tooltip": false
+  },
+  "pulseaudio": {
+    "format": " {volume} %",
+    "scroll-step": 5,
+    "tooltip": false
+  },
+  "battery": {
+    "format": "󰁹 {capacity} %",
+    "format-charging": "󰂄 {capacity} %",
+    "tooltip": false
+  },
+  "tray": {
+    "spacing": 8
+  }
+}
