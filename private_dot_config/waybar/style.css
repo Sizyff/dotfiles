@@ -8,15 +8,16 @@ window#waybar {
 }
 
 #workspaces button {
-  background: transparent;
+  background: #11111b;
   border: none;
-  color: #b4befe;
+  color: #cdd6f4;
+  margin: 8px 4px 4px;
 }
 
 #clock, #idle_inhibitor, #backlight, #pulseaudio, #battery, #tray {
   background-color: #11111b;
   border-radius: 8px;
   color: #cdd6f4;
-  margin: 8px 4px;
+  margin: 8px 4px 4px;
   padding: 4px 8px;
 }
